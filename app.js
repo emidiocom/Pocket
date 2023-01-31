@@ -1,7 +1,7 @@
 import {
     onEvent, 
     showElement, 
-    setScreen} from './lib/code.org.js';
+    setScreen} from './code.org.js';
   
   let carteira = 200; 
   let extrato = " "; 
