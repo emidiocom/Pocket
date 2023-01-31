@@ -8,7 +8,7 @@ import {
   const comida = 20; 
   const circo = 15; 
   const brinquedo = 13; 
-  prompt ("Quanto você gostaria de economizar?");
+ 
   // valor da carteira deve ser 200 reais 
   // perguntar ao usuario quanto ele quer economizar 
   let economia = prompt ("Quanto você gostaria de economizar?");
@@ -60,7 +60,9 @@ import {
    document.querySelector("#wallet-button").style.backgroundCollor = "#FA3E4C";
   }
   
-  
+  function carteiraa() {
+    soma = carteira;
+  }
   
   // cada gasto deve diminuir o valor inicia da carteira 
   // quando o valor da carteira chega menor ou igual ao valor dito pelo usuário a tela ficar vermelha

@@ -16,7 +16,7 @@ picture {
 }
 
 picture img {
-  width: 100px;
+  width: 150px;
   
 }
 
@@ -73,7 +73,7 @@ section :is(button, img) {
 }
 
 .flex li {
-  padding: 10px;
+  padding: 20px;
   
 }
 
