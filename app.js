@@ -11,7 +11,7 @@ import {
  
   // valor da carteira deve ser 200 reais 
   // perguntar ao usuario quanto ele quer economizar 
-  let economia = prompt ("Quanto você gostaria de economizar?");
+  let ECONOMIA = prompt ("Quanto você gostaria de economizar?");
   
   
   
