@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pocket</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <main>
-      <div class="multi-bg-example"></div>
-      <header>
-          <h1>Gerenciador de Viagem</h1>
-        </header>
-        
-        <picture>
-          <img src="https://cdn-icons-png.flaticon.com/512/2199/2199456.png" alt="Carteira">
-          
-          <span>R$ <span>200</span></span>
-        </picture>
-        
-        <section>
-          <ul class="flex">
-            <li>
-              <h3>Comida</h3>
-              <button id="comida">
-                <img src="https://studio.code.org/v3/assets/zgHYxcMPVlqog0epABtslttb63j0Ww9hKIzVDNgx_oE/pizza.png?t=1655228121000" alt="Comida">
-              </button>
-            </li>
-            <li>
-              <h3>Brinquedo</h3>
-              <button id="brinquedo">
-                <img src="https://studio.code.org/v3/assets/zgHYxcMPVlqog0epABtslttb63j0Ww9hKIzVDNgx_oE/ride.png?t=1655228121000" alt="Briquedo">
-              </button>
-            </li>
-            <li>
-              <h3>Circo</h3>
-              <button id="circo">
-                <img src="https://studio.code.org/v3/assets/zgHYxcMPVlqog0epABtslttb63j0Ww9hKIzVDNgx_oE/character.png?t=1655228120000" alt="Circo">
-              </button>
-            </li>
-          </ul>
-        </section>
-        <footer>
-          <button id="go-extrato">Extrato</button>
-        </footer>
-      </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/258fb9c744.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Pocket - Sistema de Gastos</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="carteira">
+        <div><h1>Pocket - Sistema de Gastos</h1></div>
+      </div>
+      <div class="container-2">
+        <div class="saldo"><h1>Olá </h1><h1>nome</h1><h1>Saldo carteira</h1></div>
+        <div class="valor"><h2 id="wallet"></h2></div>
+      </div>
 
-      <script src="./app.js" type="module"></script>
-</body>
+      <section>
+        <ul class="flex">
+          <li>
+            <h3>Alimentação</h3>
+            <button id="comida">
+              <img src="./Vector.png" alt="Comida" id="vetor" />
+            </button>
+          </li>
+          <li>
+            <h3>Souvenir</h3>
+            <button id="brinquedo">
+              <img src="./gift.png" alt="Briquedo" />
+            </button>
+          </li>
+          <li>
+            <h3>Lazer</h3>
+            <button id="circo">
+              <img src="./circo.png" alt="Circo" />
+            </button>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <button id="go-extrato">Extrato</button>
+        <button onclick="location.reload()" id="reset">Reiniciar</button>
+      </footer>
+    </section>
+    <script src="./app.js" type="module"></script>
+  </body>
 </html>
